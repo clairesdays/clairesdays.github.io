@@ -1,0 +1,263 @@
+body {
+	background-color: #BFEAFF;
+	text-align: center;
+	margin-top: 20px;
+}
+/*this is to keep page from shifting to left on load in safari and firefox*/
+html { min-height: 100%; margin-bottom: 1px; }
+html { overflow: -moz-scrollbars-vertical !important; }
+
+#topline {
+	background-color: #80D6FF;
+	height: 9px;
+}
+#logocell {
+	background-color: #FFFFFF;
+	width: 174px;
+	height: 134px;
+}
+#maintable {
+	width: 770px;
+	text-align: left;
+	margin: auto;
+}
+#menu {
+	background-color: #80D6FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+	vertical-align: top;
+	text-align: left;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+/*================================================================================
+>> Main Menu Links
+================================================================================*/
+
+td.vmenu_main_off {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+}
+
+td.vmenu_main_on {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 0px;
+}
+
+div.vmenu_main_off {
+   width: 100%;
+   font-size: 13px;
+   font-weight: normal;
+}
+
+div.vmenu_main_on {
+   width: 100%;
+   font-size: 13px;
+   font-weight: bold;
+}
+/*================================================================================
+>> Main Menu Links END
+================================================================================*/
+/*================================================================================
+/* Sub Menu Links
+================================================================================*/
+td.vmenu_sub_off {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 15px;
+}
+
+td.vmenu_sub_on {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 15px;
+}
+
+div.vmenu_sub_off {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 15px;
+   font-size: 10pt;
+   font-weight: normal;
+}
+
+div.vmenu_sub_on {
+   width: 100%;
+   border: 0px;
+   padding: 0px 0px 0px 15px;
+   font-size: 9pt;
+   font-weight: bold;
+}
+/*================================================================================
+/* Sub Menu Links END
+================================================================================*/
+#maincontent-index {
+	background-color: #FFFFFF;
+	width: 365px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+#maincontent-index h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #005178;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#maincontent-index p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+}
+/*================================================================================
+/* 
+================================================================================*/
+#maincontent-subpages {
+	background-color: #FFFFFF;
+	width: 550px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+#maincontent-subpages h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #005178;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}	
+#maincontent-subpages h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #005178;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	}	
+#maincontent-subpages li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: none;
+	text-decoration: none;
+	color: #005178;
+
+}
+#maincontent-subpages p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: none;
+	color: #000000;
+
+}table {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10pt;
+
+	
+}
+#footer {
+	background-color: #80D6FF;
+	height: 20px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #85E385;
+	text-decoration: none;
+	font-size: 8pt;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 4px;
+}
+#menu a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #005178;
+	font-size: 10pt;
+	text-decoration: none;
+	line-height: 1.4em;
+}
+#menu a:hover {
+
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 10pt;
+	font-weight: none;
+	text-decoration: underline;
+	line-height: 1.4em;
+}
+#rightcontent {
+	background-color: #FFFFFF;
+	width: 226px;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+#promo {
+	width: 210px;
+	border: 1px solid #9A9B9D;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#promo h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #005178;
+	text-decoration: none;
+	margin-bottom: 2px;
+}
+#promo p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	margin-top: 0px;
+}
+#promo2 {
+	width: 210px;
+	border: 1px solid #9A9B9D;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#promo2 h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	color: #005178;
+	text-decoration: none;
+	margin-bottom: 2px;
+}
+#promo2 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	margin-top: 0px;
+	
+}	img{ 
+	 border-style: none;
+
+
+}
